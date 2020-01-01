@@ -4,33 +4,60 @@
 img {
   border-radius: 15px;
   width: 600px;
-  height: auto;
+  display: block;
+  padding-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
-img:hover {
+.grayscale {-webkit-filter: grayscale(40%);filter: grayscale(40%);}
+
+img.grayscale:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 a {
-  background-color: #ff9ea3;
-  box-shadow: 0 5px 0 #bc7478;
-  font-size:18px;
-  font-family:monospace;
+  background-color: #ffcccc;
+  box-shadow: 0 3px 0 #cc9999;
+  font-size:1.4em;
+  font-weight: normal;
+  font-family: monospace;
   color: black;
-  padding: 7px 24px;
+  padding: 5px 24px;
   position: relative;
   text-decoration: none;
+  border-radius: 2.5px;
+  margin-right: 20px;
 }
-
+a:hover {
+  background-color: #ccffff;
+  box-shadow: 0 3px 0 #99cccc;
+  color: black;
+}
 a:active {
   box-shadow: none;
-  top: 5px;
+  top: 3px;
+}
+h1 {
+  font-size: 3.4em;
+  font-family:monospace;
+  color:#ffcccc;
+  text-align:center;
+  font-weight: normal;
+}
+body {
+  background-color: #1a1a1a;
+  font-size: 100%;
 }
 </style>
-<body style="background-color: #050505;">
-<h3 style="font-size:29px;font-family:monospace;color:#ff9ea3;text-align:center;">Mars 2027<br><br>
-<img src="aoba.jpg" alt="Aoba"></h3><br></a>
+<body>
+<h1>koi.red</h1>
+
+<img class="grayscale" src="aoba.jpg" alt="Aoba"><br><br></a>
 
 <div align="center">
-  <a href="mailto:harkdand@koi.red">mail</a>""
-  <a href="">blog</a>""
-  <a href="">aoba</a>  
+  <a href="mailto:harkdand@koi.red">mail</a>
+  <a href="blog">blog</a>
+  <a href="">aoba</a>
+  <a href="https://www.last.fm/user/harkdand">last</a>
 </div>
 </body>
