@@ -10,13 +10,11 @@ iframe {
   width: 36%;
   margin-left: 24px;
 }
-}
 img {
   float: right;
   border-radius: 12px;
   width: 36%;
   margin-left: 24px;
-  draggable="false"
 }
 h2 {
   font-family:monospace;
@@ -33,19 +31,20 @@ h1 {
   font-weight: normal;
 }
 body {
-  background-color: #1a1a1a;
+  background-color: #2d2d2d;
   font-size: 100%;
-  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(p3bs.jpg),url(p3bs.jpg);
+  background-position: right top, left top;
   letter-spacing: 1px;
+  background-repeat: repeat-y;
   text-align: left;
 }
-
-/* Style the content */
 .content {
   margin: 0 auto;
   margin-bottom: 15px;
+  max-width: 900px;
   overflow: auto;
   clear: right;
   box-shadow: 0px 5px 10px #000000;
