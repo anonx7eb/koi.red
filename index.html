@@ -10,7 +10,6 @@ img {
   margin-right: auto;
 }
 .grayscale {-webkit-filter: grayscale(40%);filter: grayscale(40%);}
-
 img.grayscale:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
@@ -45,10 +44,10 @@ h1 {
   font-weight: normal;
 }
 body {
-  background-color: rgb(45,45,45);
-  background-image: url(p1bs.jpg);
-  background-position: right top;
-  background-repeat:round;
+  background-color: #2d2d2d;
+  background-image: url(p1bs.jpg),url(p1bs.jpg);
+  background-position: right top, left top;
+  background-repeat: repeat-y;
   font-size: 100%;
 }
 </style>
@@ -57,7 +56,7 @@ body {
 
 <img class="grayscale" src="aoba.jpg" alt="Aoba"><br><br></a>
 
-<div background=rgb(45,45,45) align="center">
+<div align="center">
   <a href="mailto:harkdand@koi.red">mail</a>
   <a href="blog/">blog</a>
   <a href="aoba.html">aoba</a>
