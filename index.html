@@ -3,7 +3,8 @@
 <style>
 img {
   border-radius: 15px;
-  width: 600px;
+  max-height: 600px;
+  max-width: 600px;
   display: block;
   padding-bottom: 4px;
   margin-left: auto;
@@ -52,11 +53,19 @@ body {
 }*/
 </style>
 <body>
-	<br><h1>koi.red</h1><br>
+	<h1>koi.red</h1>
 
-<!--<img class="grayscale" src="aoba.jpg" alt="Aoba"><br><br></a>-->
-<img src="aoba_flower.png" alt="Aob"><br><br><br></a>
+<script type="text/javascript">
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 
+document.write('<img src="'+ getRandomInt(1, 22) + '.jpg">')
+
+</script>
+<br><br>
 <div align="center">
   <a href="mailto:harkdand@koi.red">mail</a>
   <a href="blog/">blog</a>
