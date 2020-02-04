@@ -4,7 +4,9 @@ a:link {
 a:visited {
   color: #bcbcbc;
 }
-
+audio {
+  height: 30px;
+}
 hr {
   display: block;
   border-color: #878787;
@@ -64,7 +66,7 @@ body {
 }
 .content {
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   max-width: 900px;
   clear: right;
   overflow: hidden;
