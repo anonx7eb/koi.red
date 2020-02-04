@@ -1,14 +1,24 @@
 a:link {
-  color: #cc0000;
+  color: #bcbcbc;
 }
 a:visited {
-  color: #cc0000;
+  color: #bcbcbc;
 }
+
+hr {
+  display: block;
+  border-color: #878787;
+  margin-right: auto;
+  border-bottom-width:4px;
+}
+
 iframe {
   float: right;
   border-radius: 12px;
   width: 36%;
-  margin-left: 24px;
+  margin-right: 30px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 img {
   float: right;
@@ -19,16 +29,27 @@ img {
 h2 {
   font-family:monospace;
   margin: 0px;
-  color:#990000;
+  color: #ffcccc;
+  padding-top: 25px;
+  padding-bottom: 15px;
   font-weight: bold;
   font-size: 28px;
+  text-align: center;
 }
 h1 {
   font-size: 3.4em;
   font-family:monospace;
-  color:#ffcccc;
+  color: #ffcccc;
   text-align:center;
   font-weight: normal;
+  padding: 30px;
+}
+p {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+small {
+  padding: 30px;
 }
 body {
   background-color: #2d2d2d;
@@ -43,15 +64,17 @@ body {
 }
 .content {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   max-width: 900px;
-  overflow: auto;
   clear: right;
-  box-shadow: 0px 5px 10px #000000;
-  background-color: #f2f2f2;
-  padding: 24px;
-  border-left: 6px solid #cc0000;
-  border-radius: 0 10px 30px 0;
+  overflow: hidden;
+  /*box-shadow: 0px 2px 5px black;*/
+  background-color: #1c1c1c;
+  padding: 0px;
+  /*border-left: 6px solid #cc0000;*/
+  /*border-radius: 0 10px 30px 0;*/
+  border-radius: 10px;
   font-family:monospace ;
   font-size: 18px;
+  color: #ffcccc;
 }
