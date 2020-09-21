@@ -1,3 +1,11 @@
+::-moz-selection {
+  color: black;
+  background: #ccffff;
+}
+::selection {
+  color: black;
+  background: #ccffff;
+}
 a:link {
   color: #ff1919;
 }
