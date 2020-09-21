@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <style>
+::-moz-selection {
+  color: black;
+  background: #ccffffbb;
+}
+::selection {
+  color: black;
+  background: #ccffffbb;
+}
 img {
   border-radius: 15px;
   max-height: 600px;
@@ -62,8 +70,6 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
-
-/*document.write('<img src="'+ getRandomInt(1, 22) + '.jpg">')*/
 
 </script>
 <br><br>
