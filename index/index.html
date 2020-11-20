@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script  type="text/javascript">
+		function changeImg(imgNumber)	{
+			var myImages = ["https://img.andpremium.jp/2020/11/14205342/1_000130870005_2t-1536x1224.jpg", "https://img.andpremium.jp/2020/11/14205719/6_000130890005_3-1536x1228.jpg", "https://img.andpremium.jp/2020/11/14205748/10_000130870010_3-1536x1224.jpg", "https://img.andpremium.jp/2020/10/31202724/img20201006_04522969_3.jpg"]; 
+			var imgShown = document.body.style.backgroundImage;
+			var newImgNumber =Math.floor(Math.random()*myImages.length);
+			document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
+		}
+		window.onload=changeImg;
+	</script>
+<style>
+body {
+  margin: 0;
+  background-attachment:fixed;
+}
+.sidenav {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+/*
+  margin-top: 2%;
+  margin-top: 2%;
+  margin-left: 2.6%;
+*/
+  left: 40px;
+  background-color: rgba(0,0,0,0.4);
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow:  0px 0px 2px #ccffff;
+}
+.sidenav a {
+  padding: 4px 8px 4px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-btn {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #ccffff;
+  text-shadow: 0px 0px 5px #ccffff;
+}
+.main {
+  margin-left: 240px;
+  font-size: 10px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+  height: 100vh;
+}
+.active {
+  background-color: rgba(28, 28, 28, 0.0);
+  color: #ccffff;
+}
+.dropdown-container {
+  display: none;
+  background-color: rgba(28, 28, 28, 0.0);
+  padding-left: 8px;
+}
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body class="bg">
+
+<div class="sidenav">
+  <button class="dropdown-btn">剃刀乙女</button>
+  <div class="dropdown-container">
+    <a href="#">不和リン</a>
+    <a href="#">ココロノセカイ</a>
+    <a href="#">ポシェットのおうた</a>
+    <a href="#">重たい睫毛</a>
+    <a href="#">路標</a>
+    <a href="#">光蜥蜴</a>
+    <a href="#">遠いあこがれ</a>
+    <a href="#">腸髪のサーカス</a>
+  </div>
+  <button class="dropdown-btn">檻髪</button>
+  <div class="dropdown-container">
+    <a href="#">少女と檻</a>
+    <a href="#">灰色の日</a>
+    <a href="#">パッチワーク</a>
+    <a href="#">レースのむこう</a>
+    <a href="#">つよくなる</a>
+    <a href="#">おもいでカフェ</a>
+    <a href="#">日時計</a>
+    <a href="#">繙く風</a>
+  </div>
+  <button class="dropdown-btn">うたびこ</button>
+  <div class="dropdown-container">
+    <a href="#">IMPERIAL SMOKE<br>TOWN</a>
+    <a href="#">かなしいゆめをみたら</a>
+    <a href="#">私の盗人</a>
+    <a href="#">裸足の庭</a>
+    <a href="#">あなたのかざり</a>
+    <a href="#">3びきのくま</a>
+    <a href="#">奇跡はいつでも</a>
+    <a href="#">ひかりのふるさと</a>
+  </div>
+  <button class="dropdown-btn">0</button>
+  <div class="dropdown-container">
+    <a href="#">いきのこり●ぼくら</a>
+    <a href="https://koi.red" target="frame">i am POD (0%)</a>
+    <a href="Mars_2027.html" target="frame">Mars 2027</a>
+    <a href="#">いりぐちでぐち</a>
+    <a href="#">うたのけはい</a>
+    <a href="#">機械仕掛乃宇宙</a>
+    <a href="#">四月の支度</a>
+    <a href="#">はるなつあきふゆ</a>
+  </div>
+  <button class="dropdown-btn">マホロボシヤ</button>
+  <div class="dropdown-container">
+    <a href="#">The End</a>
+    <a href="#">ゆさぎ</a>
+    <a href="#">マホロボシヤ</a>
+    <a href="#">氷の鳥</a>
+    <a href="#">おめでとうの唄</a>
+    <a href="#">ゆめしぐれ</a>
+    <a href="#">うみてんぐ</a>
+    <a href="#">太陽さん</a>
+    <a href="#">コウノトリ</a>
+    <a href="#">神様のたくらみ</a>
+    <a href="#">鬼ヶ島</a>
+  </div>
+  <button class="dropdown-btn">プネウマ</button>
+  <div class="dropdown-container">
+    <a href="#">IMPERIAL SMOKE<br>TOWN</a>
+    <a href="#">Mars 2027</a>
+    <a href="#">ともしびの白百合</a>
+    <a href="#">不和リン</a>
+    <a href="#">Frozen Tidal</a>
+    <a href="#">重たい睫毛</a>
+    <a href="#">日時計</a>
+    <a href="#">神様のたくらみ</a>
+    <a href="#">ゆさぎ / マホロボシヤ</a>
+    <a href="#">Lilies Of The Valley</a>
+  </div>
+  <button class="dropdown-btn">qp</button>
+  <div class="dropdown-container">
+    <a href="#">夜明けのジュリア<br>の谷の噴水</a>
+    <a href="#">テリフリアメ</a>
+    <a href="#">月の丘</a>
+    <a href="#">みなしごの雨</a>
+    <a href="#">誰かの世界</a>
+    <a href="#">卯月の朧唄</a>
+    <a href="#">水辺の妖精</a>
+    <a href="#">妖精の手招き</a>
+    <a href="#">羊のアンソニー</a>
+    <a href="#">海辺の葬列</a>
+  </div>
+</div>
+
+<div class="main">
+<iframe src="Mars_2027.html" name="frame"></iframe>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 
