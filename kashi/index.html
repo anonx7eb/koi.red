@@ -3,7 +3,7 @@
 <head>
 <script  type="text/javascript">
 		function changeImg(imgNumber)	{
-			var myImages = ["https://img.andpremium.jp/2020/11/14205342/1_000130870005_2t-1536x1224.jpg", "https://img.andpremium.jp/2020/11/14205719/6_000130890005_3-1536x1228.jpg", "https://img.andpremium.jp/2020/11/14205748/10_000130870010_3-1536x1224.jpg", "https://img.andpremium.jp/2020/10/31202724/img20201006_04522969_3.jpg"]; 
+			var myImages = ["https://img.andpremium.jp/2020/11/14205719/6_000130890005_3-1536x1228.jpg"]; 
 			var imgShown = document.body.style.backgroundImage;
 			var newImgNumber =Math.floor(Math.random()*myImages.length);
 			document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
@@ -17,25 +17,41 @@ body {
 }
 .sidenav {
   overflow-y: hidden; /* Hide vertical scrollbar */
-  height: 100%;
   width: 200px;
   position: fixed;
   z-index: 1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
 /*
   margin-top: 2%;
   margin-top: 2%;
   margin-left: 2.6%;
 */
   left: 40px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
   overflow-x: hidden;
+  padding-bottom: 20px;
   padding-top: 20px;
   box-shadow:  0px 0px 2px #ccffff;
 }
+p {
+  padding: 4px 0px 4px 22px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ccffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+}
 .sidenav a {
-  padding: 4px 8px 4px 22px;
+  padding: 2px 0px 4px 22px;
   text-decoration: none;
   font-size: 15px;
+  text-shadow: 0px 0px 4px #ffffff;
   color: #ffffff;
   display: block;
   border: none;
@@ -46,9 +62,9 @@ body {
   outline: none;
 }
 .dropdown-btn {
-  padding: 6px 8px 6px 20px;
-  text-decoration: none;
-  font-size: 18px;
+  padding: 8px 8px 8px 24px;
+  text-shadow: 0px 0px 4px #ffffff;
+  font-size: 22px;
   color: #ffffff;
   display: block;
   border: none;
@@ -69,7 +85,6 @@ body {
   height: 100vh;
 }
 .active {
-  background-color: rgba(28, 28, 28, 0.0);
   color: #ccffff;
 }
 .dropdown-container {
