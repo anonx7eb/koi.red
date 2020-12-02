@@ -3,7 +3,7 @@
 <head>
 <script  type="text/javascript">
 		function changeImg(imgNumber)	{
-			var myImages = ["./bg0.jpg"]; 
+			var myImages = ["./bg.jpg"]; 
 			var imgShown = document.body.style.backgroundImage;
 			var newImgNumber =Math.floor(Math.random()*myImages.length);
 			document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
@@ -13,7 +13,6 @@
 <style>
 body {
   margin: 0;
-  background-attachment:fixed;
 }
 .sidenav {
   overflow-y: hidden; /* Hide vertical scrollbar */
