@@ -10,7 +10,7 @@ body {
 	position: relative;
 	z-index: 20;
 	background: #fff;
-	transition: transform .6s ease;
+	transition: transform .1s ease;
 	@media(min-width: $keyBreakpoint){
 		padding: 1em;
 	}

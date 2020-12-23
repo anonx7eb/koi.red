@@ -76,7 +76,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 65.3%;
   height: 100%;
   background: #1c1c1c;
   overflow-y: scroll;
@@ -105,8 +105,8 @@ body {
   overflow: hidden;
 }
 .show-detail #main {
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translateX(-65.3%);
+          transform: translateX(-65.3%);
 }
 
 .visually-hidden {
