@@ -26,8 +26,8 @@ p {
   line-height: 1.7;
   margin-top: 0;
   margin-bottom: 0;
-  color: #FF9955;
-  text-shadow: 0px 0px 4px #FF9955;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 4px #FFFFFF;
 }
 .column {
   float: left;
@@ -40,7 +40,7 @@ p {
   margin-top: 40px;
   background-color: rgba(0,0,0,0.6);
   border-radius: 10px;
-  box-shadow:  0px 0px 3px #FF9955;
+  box-shadow:  0px 0px 3px #FFFFFF;
   color: #ccffff;
 }
 .row:after {
@@ -55,4 +55,8 @@ hr {
   background-color: #ffffff;
   width: 80%;
   box-shadow:  0px 0px 5px #ffffff;
+}
+a {
+  color: #ffffff;
+  
 }
