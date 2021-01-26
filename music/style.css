@@ -1,0 +1,19 @@
+body {
+	background: #000000;
+	color: #FFFFFF;
+	font-family: monospace;
+	font-size: 12px;
+	max-width: 75%;
+	font-size: 110%;
+	margin: auto;
+}
+h1 {
+   color: #FFCCCC;
+}
+h2 {
+   color: #FFCCCC;
+}
+a:link{
+	color: #00ff00;
+	font-family: monospace;
+}
