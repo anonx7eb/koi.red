@@ -1,36 +1,53 @@
 <!DOCTYPE html>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
 <html>
+<title>koi.red</title>
+<link rel="icon" href="favicon.png">
 <style>
 ::-moz-selection {
-  color: black;
-  background: #ccffff;
+  color: #FFCCCC;
+  background: none;
+  text-shadow: 0px 0px 1px #FFCCCC;
 }
 ::selection {
-  color: black;
-  background: #ccffff;
+  color: #FFCCCC;
+  background: none;
+  text-shadow: 0px 0px 1px #FFFFFF;
 }
 img {
   border-radius: 15px;
+  user-select: none;
   max-height: 550px;
   max-width: 550px;
   display: block;
   padding-bottom: 4px;
   margin-bottom: 20px;
+  -webkit-filter: drop-shadow(0px 0px 2px white);
+  filter: drop-shadow(0px 0px 2px white);
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
 }
+br {
+  user-select: none;
+}
 a {
   background-color: #ffcccc;
+  user-select: none;
   box-shadow: 0 3px 0 #cc9999;
-  font-size:1.3em;
+  font-size: 15px;
   font-weight: normal;
   font-family: monospace;
   color: black;
-  padding: 5px 24px;
+  padding: 4.5px 22px;
   position: relative;
   text-decoration: none;
-  border-radius: 2.5px;
+  border-radius: 4px;
   margin-right: 15px;
 }
 a:hover {
@@ -42,12 +59,35 @@ a:active {
   box-shadow: none;
   top: 3px;
 }
+p {
+  color: #FFFFFF;
+}
 h1 {
   font-size: 3.4em;
   font-family:monospace;
   color:#ffcccc;
   text-align:center;
   font-weight: normal;
+  text-shadow: 0px 0px 4px #FFCCCC;
+}
+pre {
+  font-family:monospace;
+  display: inline-block;
+  text-align: left;
+}
+code {
+  font-size: 11px;
+  display: inline-block;
+  cursor: grab;
+  border: 1px solid #FFFFFF;
+  padding: 20px;
+  user-select: all;
+  margin: 20px;
+  background-color: #191919;
+  text-align: left;
+  white-space: pre-wrap;
+  box-shadow: 0px 0px 4px white;
+
 }
 h2 {
   font-size: 2.4em;
@@ -55,14 +95,17 @@ h2 {
   color:#FFFFFF;
   text-align:center;
   font-weight: normal;
+  text-shadow: 0px 0px 4px #0e0e0e;
 }
 body {
-  background-color: #1c1c1c;
-  background-image: url(bkg.png);
+  background-color: #101010;
+  /*background-image: url(bkg.png);*/
   color:#FFFFFF;
 	font-family: monospace;
 	font-size: 12px;
 	margin-top: 50px;
+   text-align: center;
+
   /*background-position: right top, left top;
   background-repeat: repeat-y;
   font-size: 100%;
@@ -70,30 +113,35 @@ body {
 }
 </style>
 <body>
+
 <h1>koi.red</h1>
+
 <img src="./2.jpg">
 
-<script type="text/javascript">
-function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-
-</script>
 <br><br>
-<div align="center">
+
+<div style="user-select: none;" align="center">
   <a href="mailto:dregs@koi.red">mail</a>
   <a href="blog/">blog</a>
   <a href="film/">film</a>
   <a href="https://yume.red">yume</a>
   <a href="music/">music</a>
-</div>
-<br><br><br>
-<div align="center">
+</div><br><br>
 
-<p></p>
+<h2>*○。</h2>
 
-</div>
+<code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEYBBlxBYJKwYBBAHaRw8BAQdASYN9KsUFeoHAKpP85sPxTbUrTl+Wh+EYKDeX
+kIv7Pk20FWRyZWdzIDxkcmVnc0Brb2kucmVkPoiWBBMWCAA+FiEEi+Y7c7mQ/28u
+/+/c+8j9jNSc1VYFAmAQZcQCGwMFCQlmAYAFCwkIBwIGFQoJCAsCBBYCAwECHgEC
+F4AACgkQ+8j9jNSc1VZ8GgD/YwOnxx4tpPPBNsreZaf58z7pmXPp69iMHsARqDdg
+mBcA/2Tdir017RBtVukdLuhF5izkECpvbtQrDxW3aQDb8zYJuDgEYBBlxBIKKwYB
+BAGXVQEFAQEHQPK086GOKWnk2h0NooLcPz93aaemyHSGYD8T2xoG/N0MAwEIB4h+
+BBgWCAAmFiEEi+Y7c7mQ/28u/+/c+8j9jNSc1VYFAmAQZcQCGwwFCQlmAYAACgkQ
++8j9jNSc1VZlOQEA+9YdZbYBSCGmCDh4Is8b7t31SJcdnJWLHKBfhyAxL+kA/2fv
+greoTinmgVlhr/YDO0GWAOJshveIDL/da9QvbdED
+=mWSf
+-----END PGP PUBLIC KEY BLOCK-----</code>
 
 </body>
