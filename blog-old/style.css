@@ -1,10 +1,10 @@
 ::-moz-selection {
-  color: black;
-  background: #ccffff;
+  color: white;
+  background: black;
 }
 ::selection {
-  color: black;
-  background: #ccffff;
+  color: white;
+  background: black;
 }
 a:link {
   color: #ff1919;
