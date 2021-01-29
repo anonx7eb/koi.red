@@ -24,7 +24,6 @@ body {
   font-family:monospace;
 }
 html {
-  cursor:url("favicon-16x16.png"), auto;
   }
 #main {
   position: relative;
@@ -76,6 +75,7 @@ html {
 
 #aside {
   position: fixed;
+  cursor:url("favicon-16x16.png"), auto;
   top: 0;
   right: 0;
   width: 65.3%;
