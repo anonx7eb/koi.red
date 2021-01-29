@@ -22,9 +22,10 @@ body {
   margin: 0;
   background: #1c1c1c;
   font-family:monospace;
-  cursor:url("/favicon-16x16.png"), auto;
 }
-
+html {
+  cursor:url("favicon-16x16.png"), auto;
+  }
 #main {
   position: relative;
   z-index: 20;
