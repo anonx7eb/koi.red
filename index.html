@@ -42,7 +42,7 @@ img {
 br {
   user-select: none;
 }
-a {
+.menu {
   background-color: #ffcccc;
   box-shadow: 0 3px 0 #cc9999;
   user-select: none;
@@ -57,12 +57,12 @@ a {
   border-radius: 4px;
   margin-right: 15px;
 }
-a:hover {
+.menu:hover {
   background-color: #ccffff;
   box-shadow: 0 3px 0 #99cccc;
   color: black;
 }
-a:active {
+.menu:active {
   box-shadow: none;
   top: 3px;
 }
@@ -107,6 +107,14 @@ h2 {
   font-weight: normal;
   text-shadow: 0px 0px 4px #0e0e0e;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFCCCC;
+  cursor:url("favicon-16x16.png"), auto;
+}
 body {
   background-color: #101010;
   /*background-image: url(bkg.png);*/
@@ -132,14 +140,14 @@ body {
 <br><br>
 
 <div style="user-select: none;" align="center">
-  <a href="mailto:dregs@koi.red">mail</a>
-  <a href="https://app.koi.red/#/room/#lounge:mtx.koi.red">chat</a>
-  <a href="https://yume.red">yume</a>
-  <a href="film/">film</a>
-  <a href="music/">music</a>
+  <a class=menu href="mailto:dregs@koi.red">mail</a>
+  <a class=menu href="https://app.koi.red/#/room/#lounge:mtx.koi.red">chat</a>
+  <a class=menu href="https://yume.red">yume</a>
+  <a class=menu href="film/">film</a>
+  <a class=menu href="music/">music</a>
 </div><br><br>
 
-<h2><a href=forbidden_knowlege.html>*○。</a></h2>
+<h2><a href="forbidden_knowledge.html">*○。</a></h2>
 
 <code>-----BEGIN PGP PUBLIC KEY BLOCK-----
 
